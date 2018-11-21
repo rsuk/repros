@@ -1,0 +1,14 @@
+class base {
+  public counter: number = 0;
+  increment() {
+  
+  }
+}
+
+class derived extends base {
+  constructor(public anotherCount: number) {
+    super();
+  }
+}
+
+export { base, derived };
